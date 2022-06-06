@@ -4,9 +4,6 @@ body{
 	margin: 0px;
 }
 
-*{
-	box-sizing: border-box;
-}
 
 #header-nav{
 	background-color: #b0b0b0;
@@ -31,12 +28,11 @@ section{
 	padding-left: 11px;
 	padding-right: 2px;
 	margin-bottom: 11px;
-	width: 47%;
 	height: 235px;
 	overflow: hidden;
 }
 
-section h2{
+section h3{
 	margin-top: 0px;
 	position: absolute;
 	font-size: 125%; 
@@ -44,7 +40,6 @@ section h2{
 	text-align: center;
 	top: -2px;
 	right: -2px;
-
 }
 
 .row {
@@ -71,20 +66,28 @@ section h2{
 
 }
 
-.col-tv-6{
-	width: 48%;
-	margin-left: 11px;
-	margin-bottom: 15px;
-}
-.col-tv-12{
-	width: 97.1%;
-	margin-left: 11px;
-}
-
-} 
 
 /*Mobile View*/
 @media (max-width : 576px) {
+#nav-list li{
+	text-align: center;
+	border-bottom: 1px solid #030f0d;
+	background-color: #fff;
+}
+
+#header-nav{
+	padding-bottom: 0px;
+}
+
+#header-nav button{
+	clear :both;
+	border: 1px solid #030f0d;
+}
+
+
+.navbar-light .navbar-toggler-icon{
+	color: yellow;
+}
 
 
 } 
