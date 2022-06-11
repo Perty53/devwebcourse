@@ -63,6 +63,7 @@ section h3{
 
 section{
 	height: 2500px;
+        Overflow: hidden;
 }
 
 #header-nav{
